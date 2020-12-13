@@ -90,3 +90,7 @@ ul li:hover {
 .first-block-callback:hover {
   background-color: #ee902c;
 }
+
+.second-block {
+  height: 500px;
+}

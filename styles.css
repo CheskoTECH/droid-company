@@ -416,3 +416,21 @@ ul li:hover {
   font-size: 18px;
   line-height: 30px;
 }
+
+.six-block-social {
+  margin: 70px auto;
+  margin-bottom: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+.six-block-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.six-block-socials-img {
+  height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}

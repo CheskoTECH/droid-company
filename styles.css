@@ -9,6 +9,15 @@ body,
   font-feature-settings: "pnum" on, "lnum" on;
 }
 
+.call {
+  position: fixed;
+  height: 55px;
+  width: 55px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+}
+
 .first-block {
   height: 100vh;
   background-image: url("assets/bg.png");
@@ -505,4 +514,23 @@ ul li:hover {
 
 .before-after-image {
   height: 400px;
+}
+
+.footer {
+  display: grid;
+  height: 330px;
+  background-color: #f9f0e9;
+  align-content: center;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-gap: 20px;
+}
+
+.footer-first-col {
+}
+
+.footer-second-col {
 }

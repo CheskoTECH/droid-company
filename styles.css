@@ -321,3 +321,56 @@ ul li:hover {
   width: 70px;
   height: 70px;
 }
+
+.fifth-block {
+  margin-bottom: 500px;
+}
+
+.fifth-block-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 470px;
+  height: 290px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.fifth-block-cardtitle {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 40px;
+  width: 390px;
+}
+
+.fifth-block-card-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.fifth-block-cost-wrapper {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 260px 130px;
+}
+
+.fifth-block-cost-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.fifth-block-cost {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #f57d00;
+}

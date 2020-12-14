@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html,
-body {
+body,
+* {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
@@ -17,21 +18,26 @@ body {
 .content {
   width: 900px;
   margin: 0 auto;
-  height: 100%;
+  /* height: 100%; */
 }
 
-.first-block-navbar {
+.first-block-navbar-wrapper {
   display: flex;
   color: #fff;
-  list-style: none;
+  align-items: center;
+  margin-bottom: 180px;
 }
 
 .first-block-logo {
   height: 51px;
+  margin-right: 12px;
 }
 
 .first-block-navbar {
-  margin-bottom: 70px;
+  margin-left: 80px;
+  list-style: none;
+  align-items: center;
+  display: flex;
 }
 
 ul li {
@@ -48,9 +54,10 @@ ul li:hover {
   font-size: 72px;
   font-weight: 900;
   color: #fff;
+  margin-bottom: 30px;
 }
 
-.first-block-time {
+/* .first-block-time {
   width: 600px;
   color: #fff;
   font-weight: 500;
@@ -58,7 +65,7 @@ ul li:hover {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .first-block-desc {
   width: 600px;
@@ -68,7 +75,7 @@ ul li:hover {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .first-block-callback {
@@ -85,12 +92,164 @@ ul li:hover {
   border-radius: 100px;
   cursor: pointer;
   transition: all 0.3s;
+  margin-right: 6.2rem;
 }
 
 .first-block-callback:hover {
   background-color: #ee902c;
 }
 
+.first-block-alloffers {
+  color: #fff;
+  height: 58px;
+  width: 250px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: all 0.2s;
+}
+
+.first-block-alloffers:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.first-block-buttons {
+  display: flex;
+}
+
+.logo-droid {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.logo-service {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
 .second-block {
   height: 500px;
+}
+
+.second-block-content {
+  width: 900px;
+  margin: 0 auto;
+  /* height: 100%; */
+}
+
+.default-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.default-subtitle {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #f57d00;
+  margin-bottom: 70px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.input-field {
+  width: 270px;
+  height: 55px;
+  border: 1.5px solid #c9c9c9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #dadada98;
+}
+
+.form-button {
+  width: 240px;
+  height: 55px;
+  background: #f57d00;
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form-button:hover {
+  background-color: #ee902c;
+}
+
+.second-block-fix {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #f57d00;
+  margin-bottom: 20px;
+}
+
+.second-block-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-block-images-image {
+  width: 116px;
+  height: 116px;
+}
+
+.third-block-cardwrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-auto-flow: column; */
+}
+
+.third-block-card {
+  width: 390px;
+  margin-bottom: 90px;
+}
+
+.third-block-feature {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.third-block-desc {
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
 }

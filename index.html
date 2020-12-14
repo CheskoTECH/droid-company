@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Droid Company</title>
+    <title>Droid Service</title>
 </head>
 <body>
     <!-- Шапка страницы с контактами -->
     <div class="first-block">
         <div class="content">
-            <div class="first-block-navbar">
+            <div class="first-block-navbar-wrapper">
                 <img class="first-block-logo" src="assets/droid.png" alt="logo">
+                <div>
+                    <p class="logo-droid">Droid</p>
+                    <p class="logo-service">Service</p>
+                </div>
                 <ul class="first-block-navbar">
                     <li class="first-block-navbar-li">О нас</li>
                     <li>Цены</li>
@@ -20,40 +24,56 @@
                 </ul>
             </div>
             <h1 class="first-block-title">Сервисный центр</h1>
-            <p class="first-block-time">10:00 - 20:00</p>
             <p class="first-block-desc">Благодаря большому опыту инженеров и наличию запасных частей на складе мы выполним ремонт быстро, качественно и недорого. До 80% заказов специалисты выполняют в день обращения.</p>
-            <div class="first-block-callback">Обратный звонок</div>
+            <div class="first-block-buttons">
+                <div class="first-block-callback">Обратный звонок</div>
+                <div class="first-block-alloffers">Все предложения</div>
+            </div>
+
         </div>
     </div>
+    <!-- Блок Обратный звонок с формой и фирмами -->
     <div class="second-block">
-        <p>Обратный звонок</p>
-        <p>В течение часа</p>
-        <div>
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="телефон">
-            <button>Позвоните мне</button>
+        <div class="second-block-content">
+            <p class="default-title">Обратный звонок</p>
+            <p class="default-subtitle">В течение часа</p>
+            <div class="form">
+                <input class="input-field" type="text" placeholder="Ваше имя">
+                <input class="input-field" type="text" placeholder="телефон">
+                <div class="form-button">Позвоните мне</div>
+            </div>
+            <p class="second-block-fix">Ремонтируем</p>
+            <div class="second-block-images">
+                <img class="second-block-images-image" src="assets/logos/1.jpg" alt="logo">
+                <img class="second-block-images-image" src="assets/logos/2.jpg" alt="logo">
+                <img class="second-block-images-image" src="assets/logos/3.jpg" alt="logo">
+                <img class="second-block-images-image" src="assets/logos/4.png" alt="logo">
+                <img class="second-block-images-image" src="assets/logos/5.jpg" alt="logo">
+            </div>
         </div>
-        <p>Ремонтируем</p>
-        <img src="assets/images.png" alt="logos">
     </div>
     <div class="third-block">
-        <p>Наши преимущества</p>
-        <p>За более чем 10 лет опыта</p>
-        <div>
-            <p>Минимальные сроки ремонта</p>
-            <p>Благодаря большому опыту инженеров и наличию запасных частей на складе мы выполним ремонт быстро, качественно и недорого. До 80% заказов специалисты выполняют в день обращения.</p>
-        </div>
-        <div>
-            <p>Ответственность за результат</p>
-            <p>Используем только качественные запасные части и строго соблюдаем технологию проведения ремонта. Предоставляем гарантию на выполненные работы и замененные комплектующие.</p>
-        </div>
-        <div>
-            <p>Бесплатная диагностика</p>
-            <p>Диагностика в течении 5 минут. Инженеры на месте определят неполадки, стоимость ремонта и сколько времени это займет.</p>
-        </div>
-        <div>
-            <p>Информирование</p>
-            <p>Мы предоставляем нашим клиентам бесплатное sms-информирование о завершении ремонта. Специалисты нашего call-центра всегда готовы ответить на все Ваши вопросы.</p>
+        <div class="content">
+            <p class="default-title">Наши преимущества</p>
+            <p class="default-subtitle">За более чем 10 лет опыта</p>
+            <div class="third-block-cardwrapper">
+                <div class="third-block-card">
+                    <p class="third-block-feature">Минимальные сроки ремонта</p>
+                    <p class="third-block-desc">Благодаря большому опыту инженеров и наличию запасных частей на складе мы выполним ремонт быстро, качественно и недорого. До 80% заказов специалисты выполняют в день обращения.</p>
+                </div>
+                <div class="third-block-card">
+                    <p class="third-block-feature">Ответственность за результат</p>
+                    <p class="third-block-desc">Используем только качественные запасные части и строго соблюдаем технологию проведения ремонта. Предоставляем гарантию на выполненные работы и замененные комплектующие.</p>
+                </div>
+                <div class="third-block-card">
+                    <p class="third-block-feature">Бесплатная диагностика</p>
+                    <p class="third-block-desc">Диагностика в течении 5 минут. Инженеры на месте определят неполадки, стоимость ремонта и сколько времени это займет.</p>
+                </div>
+                <div class="third-block-card">
+                    <p class="third-block-feature">Информирование</p>
+                    <p class="third-block-desc">Мы предоставляем нашим клиентам бесплатное sms-информирование о завершении ремонта. Специалисты нашего call-центра всегда готовы ответить на все Ваши вопросы.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="fotorama">

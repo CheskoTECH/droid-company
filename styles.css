@@ -498,3 +498,11 @@ ul li:hover {
   position: absolute;
   bottom: 15px;
 }
+
+.eight-block {
+  margin-bottom: 150px;
+}
+
+.before-after-image {
+  height: 400px;
+}

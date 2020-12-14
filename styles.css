@@ -379,7 +379,7 @@ ul li:hover {
 }
 
 .six-block {
-  margin-bottom: 400px;
+  margin-bottom: 150px;
 }
 
 .six-block-wrapper {
@@ -433,4 +433,68 @@ ul li:hover {
   height: 50px;
   margin: 0 20px;
   cursor: pointer;
+}
+
+.seven-block {
+  margin-bottom: 100px;
+}
+
+.seven-block-review-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.seven-block-review-block {
+  width: 790px;
+  height: 290px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 15px 35px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.review-name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #7d7d7d;
+  margin-bottom: 10px;
+}
+
+.review-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.review-text {
+  width: 735px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 10pxа;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.review-data {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #7d7d7d;
+  position: absolute;
+  bottom: 15px;
 }
